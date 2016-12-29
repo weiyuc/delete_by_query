@@ -9,7 +9,7 @@ elasticsearch 2.4.1 delete_by_query plugin
 
 4、将jar包拷到该文件夹下并将plugin-descriptor.properties文件也拷到该文件夹下。
 
-#如果不修改源码也可以直接将delete_by_query.zip解压到plugin目录下即可。
+<h4>#如果不修改源码也可以直接将delete_by_query.zip解压到plugin目录下即可。</h4>
 
 5、重启es，可以使用head插件测试一下，DELETE http://xxx:9200/index/type/_query  {"term":{"name":"test"}}
 
